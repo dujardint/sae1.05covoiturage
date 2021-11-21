@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Covoiturage accueil</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <header>
+        <img src="images/universite.png" alt="logo universite lille" style="width:120px;height:40px">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Covoiturage</a></li>
+            <li><a href="location.html">Locations</a></li>
+            <li><a href="compte.html">Mon Compte</a></li>
+        </ul>
+    </nav>
+
+    
+    <section class="slogan">
+		<div class="background">
+			<p class="texte_centrer"> 100% Convivialité, + d'économie, - de CO2 ! </br> Alors, Rejoignez-nous !</p>
+			<a  href="#publier"><input class="boutonAnnonce" type="button" value="Deposer une annonce"></a>
+		</div>
+	</section>
+
+    
+<trajetAccueil>
+    <h1>Tous les trajet disponibles</h1>
+    <table>
+        <tr>
+            <td><img src="images/avatar.png" alt="avatar"></td>
+            <td>Utilisateur 1</td>
+            <td>Villeneuve d'Ascq - Tourcoing</td>
+            <td><a href="trajet.html">Reserver</a></td>
+        </tr>
+
+        <tr>
+            <td><img src="images/avatar.png" alt="avatar"></td>
+            <td>Utilisateur 2</td>
+            <td>Villeneuve d'Ascq - Tourcoing</td>
+            <td><a href="trajet.html">Reserver</a></td>
+        </tr>
+
+        <tr>
+            <td><img src="images/avatar.png" alt="avatar"></td>
+            <td>Utilisateur 3</td>
+            <td>Villeneuve d'Ascq - Tourcoing</td>
+            <td><a href="trajet.html">Reserver</a></td>
+        </tr>
+
+        <tr>
+            <td><img src="images/avatar.png" alt="avatar"></td>
+            <td>Utilisateur 4</td>
+            <td>Villeneuve d'Ascq - Tourcoing</td>
+            <td><a href="trajet.html">Reserver</a></td>
+        </tr>
+    </table>
+
+    <section id="publier" title="publier">
+            <h1>Vous souhaitez publier un trajet ? c'est par ici !</h1>
+
+            <form action="trajetSend.html" method="post">
+                <div>
+                    <label for="name">Nom et prénom:</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">Lieu de départ : </label>
+                    <input type="text" id="depart" name="depart">
+                </div>
+                <div>
+                    <label for="mail">Lieu d'arrivé : </label>
+                    <input type="text" id="arrivé" name="arrivé">
+                </div>
+                <div>
+                    <label for="mail">Date du covoiturage : </label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div>
+                    <label for="msg">Nombre de personnes acceptés</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div class="button">
+                    <button type="submit">Envoyer le trajet</button>
+                </div>
+            </form>
+
+    </section>
+</trajetAccueil>
+
+<h1></h1>
+</body>
+</html>

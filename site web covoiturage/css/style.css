@@ -1,0 +1,1184 @@
+div#logo{	/*DESACTIVER image d irectement sur html*/
+    background-image: url(../images/universite.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120px;
+    height: 80px;
+}
+
+
+.background{
+	background-image: url("../images/accueil.png");
+	height: 400px;
+	background-size: cover;
+	position: relative;
+}
+/* Rectangle 2 */
+
+position: absolute;
+width: 1440px;
+height: 468px;
+left: 0px;
+top: 0px;
+
+background: rgba(124, 72, 164, 0.81);
+
+
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+	font-weight: bold;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{
+    color: #ae2573;
+    border-bottom: 2px solid #ae2573;
+}
+
+.texte_centrer {
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	font-size: 4em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 1px 3px 5px black;
+    text-align: center;
+}
+
+.boutonAnnonce {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+	
+border: 0;
+line-height: 2.5;
+padding: 0 20px;
+font-size: 1rem;
+text-align: center;
+color: black;
+text-shadow: 1px 1px 1px #000;
+border-radius: 10px;
+background-color: violet;
+
+	
+}
+   
+.boutonAnnonce:hover {
+	background-color: #ae2573;
+}
+   
+.boutonAnnonce:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+				inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+trajetAccueil{
+    text-align: center;
+}
+
+
+table{
+    font-size: larger;
+    color: white;
+    margin: auto;
+    background-color: #a85e88;
+    border-spacing: 100px 1rem;
+    width: auto;
+
+    white-space: nowrap;
+}
+
+table, img{
+    width: 35px;
+	height: 58px;
+}
+
+
+div#user {
+    width: 3px;
+    height: 3px;
+    max-width: 100%;
+  }
+
+  div.bordure-top {
+    padding-top: 15px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background-image: url(borderh.gif);
+    background-position: top;
+    background-repeat: repeat-x;
+  }
+  div.bordure-bottom {
+    padding: 0px 7px 15px 7px;
+    background-image: url(borderh.gif);
+    background-position: bottom;
+    background-repeat: repeat-x;
+  }
+
+
+
+
+  form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+  
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 200px;
+    box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+  
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+  }
+  
+  .button {
+    /* Pour placer le bouton à la même position que les champs texte */
+    padding-left: 90px; /* même taille que les étiquettes */
+  }
+  
+  button {
+    /* Cette marge supplémentaire représente grosso modo le même espace que celui
+       entre les étiquettes et les champs texte */
+    margin-left: .5em;
+  }
+
+
+
+/* Rectangle 1 = NAV*/
+
+position: absolute;
+width: 1440px;
+height: 62px;
+left: 0px;
+top: 0px;
+
+background: #D8D8D8;
+
+
+/* Covoiturage */
+
+position: absolute;
+width: 169px;
+height: 57px;
+left: 487px;
+top: 14px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+
+
+/* Locations */
+
+position: absolute;
+width: 106px;
+height: 28px;
+left: 833px;
+top: 14px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Mon compte */
+
+position: absolute;
+width: 216px;
+height: 59px;
+left: 1215px;
+top: 13px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* image 2 */
+
+position: absolute;
+width: 115px;
+height: 64px;
+left: 14px;
+top: -2px;
+
+background: url(.png);
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 1104px;
+top: 347px;
+
+background: #C4C4C4;
+
+
+/* Ellipse 2 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 261px;
+top: 347px;
+
+background: #C4C4C4;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 844px;
+height: 67px;
+left: 294px;
+top: 347px;
+
+background: #C4C4C4;
+
+
+/* Ellipse 3 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 1244px;
+top: 566px;
+
+background: #AD69CD;
+
+
+/* Ellipse 4 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 129px;
+top: 566px;
+
+background: #AD69CD;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 1116px;
+height: 67px;
+left: 162px;
+top: 566px;
+
+background: #AD69CD;
+
+
+/* Ellipse 5 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 1244px;
+top: 660px;
+
+background: #AD69CD;
+
+
+/* Ellipse 6 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 129px;
+top: 660px;
+
+background: #AD69CD;
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 1116px;
+height: 67px;
+left: 162px;
+top: 660px;
+
+background: #AD69CD;
+
+
+/* Ellipse 7 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 1244px;
+top: 754px;
+
+background: #AD69CD;
+
+
+/* Ellipse 8 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 129px;
+top: 754px;
+
+background: #AD69CD;
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 1116px;
+height: 67px;
+left: 162px;
+top: 754px;
+
+background: #AD69CD;
+
+
+/* Ellipse 9 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 1244px;
+top: 841px;
+
+background: #AD69CD;
+
+
+/* Ellipse 10 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 129px;
+top: 841px;
+
+background: #AD69CD;
+
+
+/* Rectangle 7 */
+
+position: absolute;
+width: 1116px;
+height: 67px;
+left: 162px;
+top: 841px;
+
+background: #AD69CD;
+
+
+/* Ellipse 11 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 1244px;
+top: 928px;
+
+background: #AD69CD;
+
+
+/* Ellipse 12 */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 129px;
+top: 928px;
+
+background: #AD69CD;
+
+
+/* Rectangle 8 */
+
+position: absolute;
+width: 1116px;
+height: 67px;
+left: 162px;
+top: 928px;
+
+background: #AD69CD;
+
+
+/* Trajets disponibles */
+
+position: absolute;
+width: 438px;
+height: 60px;
+left: 501px;
+top: 487px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+
+color: #000000;
+
+
+
+/* Départ : */
+
+position: absolute;
+width: 154px;
+height: 42px;
+left: 235px;
+top: 370px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 67px;
+height: 0px;
+left: 519px;
+top: 345px;
+
+border: 1px solid #000000;
+transform: rotate(90deg);
+
+
+/* Line 2 */
+
+position: absolute;
+width: 67px;
+height: 0px;
+left: 787px;
+top: 347px;
+
+border: 1px solid #000000;
+transform: rotate(90deg);
+
+
+/* Arrivé : */
+
+position: absolute;
+width: 154px;
+height: 42px;
+left: 495px;
+top: 370px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 148px;
+height: 48px;
+left: 809px;
+top: 357px;
+
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 81px;
+height: 48px;
+left: 987px;
+top: 357px;
+
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+
+/* Date */
+
+position: absolute;
+width: 103px;
+height: 25px;
+left: 833px;
+top: 345px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Heure */
+
+position: absolute;
+width: 62px;
+height: 20px;
+left: 997px;
+top: 346px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 151px;
+height: 50px;
+left: 353px;
+top: 355px;
+
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 151px;
+height: 50px;
+left: 614px;
+top: 356px;
+
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+
+/* image 4 */
+
+position: absolute;
+width: 39px;
+height: 58px;
+left: 196px;
+top: 571px;
+
+background: url(.png);
+
+
+/* image 5 */
+
+position: absolute;
+width: 39px;
+height: 58px;
+left: 196px;
+top: 665px;
+
+background: url(.png);
+
+
+/* image 6 */
+
+position: absolute;
+width: 39px;
+height: 58px;
+left: 196px;
+top: 759px;
+
+background: url(.png);
+
+
+/* image 7 */
+
+position: absolute;
+width: 39px;
+height: 58px;
+left: 196px;
+top: 846px;
+
+background: url(.png);
+
+
+/* image 8 */
+
+position: absolute;
+width: 39px;
+height: 58px;
+left: 196px;
+top: 933px;
+
+background: url(.png);
+
+
+/* Villeneuve d’ascq - Tourcoing */
+
+position: absolute;
+width: 344px;
+height: 30px;
+left: 265px;
+top: 585px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Villeneuve d’ascq - Tourcoing */
+
+position: absolute;
+width: 344px;
+height: 30px;
+left: 265px;
+top: 679px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Villeneuve d’ascq - Tourcoing */
+
+position: absolute;
+width: 344px;
+height: 30px;
+left: 265px;
+top: 773px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Villeneuve d’ascq - Tourcoing */
+
+position: absolute;
+width: 344px;
+height: 30px;
+left: 265px;
+top: 860px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Villeneuve d’ascq - Tourcoing */
+
+position: absolute;
+width: 344px;
+height: 30px;
+left: 265px;
+top: 947px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 13 */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 1019px;
+top: 572px;
+
+background: #30B900;
+
+
+/* Ellipse 14 */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 1187px;
+top: 572px;
+
+background: #30B900;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 169px;
+height: 55px;
+left: 1046px;
+top: 572px;
+
+background: #30B900;
+
+
+/* Réserver */
+
+position: absolute;
+width: 169px;
+height: 43px;
+left: 1047px;
+top: 578px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 15 */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 1019px;
+top: 666px;
+
+background: #30B900;
+
+
+/* Ellipse 16 */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 1187px;
+top: 666px;
+
+background: #30B900;
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 169px;
+height: 55px;
+left: 1046px;
+top: 666px;
+
+background: #30B900;
+
+
+/* Réserver */
+
+position: absolute;
+width: 169px;
+height: 43px;
+left: 1047px;
+top: 672px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 17 */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 1021px;
+top: 760px;
+
+background: #30B900;
+
+
+/* Ellipse 18 */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 1189px;
+top: 760px;
+
+background: #30B900;
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 169px;
+height: 55px;
+left: 1048px;
+top: 760px;
+
+background: #30B900;
+
+
+/* Réserver */
+
+position: absolute;
+width: 169px;
+height: 43px;
+left: 1049px;
+top: 766px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 19 */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 1022px;
+top: 847px;
+
+background: #30B900;
+
+
+/* Ellipse 20 */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 1190px;
+top: 847px;
+
+background: #30B900;
+
+
+/* Rectangle 16 */
+
+position: absolute;
+width: 169px;
+height: 55px;
+left: 1049px;
+top: 847px;
+
+background: #30B900;
+
+
+/* Réserver */
+
+position: absolute;
+width: 169px;
+height: 43px;
+left: 1050px;
+top: 853px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 21 */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 1019px;
+top: 935px;
+
+background: #30B900;
+
+
+/* Ellipse 22 */
+
+position: absolute;
+width: 55px;
+height: 55px;
+left: 1187px;
+top: 935px;
+
+background: #30B900;
+
+
+/* Rectangle 17 */
+
+position: absolute;
+width: 169px;
+height: 55px;
+left: 1046px;
+top: 935px;
+
+background: #30B900;
+
+
+/* Réserver */
+
+position: absolute;
+width: 169px;
+height: 43px;
+left: 1047px;
+top: 941px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 64px;
+height: 48px;
+left: 1083px;
+top: 357px;
+
+background: #C4C4C4;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+
+/* Prix */
+
+position: absolute;
+width: 62px;
+height: 20px;
+left: 1085px;
+top: 345px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Ellipse 23 */
+
+position: absolute;
+width: 97px;
+height: 97px;
+left: 1188px;
+top: 333px;
+
+background: #C4C4C4;
+
+
+/* image 9 */
+
+position: absolute;
+width: 70px;
+height: 65px;
+left: 1200px;
+top: 349px;
+
+background: url(.png);
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 330px;
+height: 54px;
+left: 1089px;
+top: 86px;
+
+background: #01BF2B;
+
+
+/* Déposer une annonce */
+
+position: absolute;
+width: 232px;
+height: 30px;
+left: 1165px;
+top: 97px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* image 10 */
+
+position: absolute;
+width: 55px;
+height: 49px;
+left: 1100px;
+top: 89px;
+
+background: url(.png);
+
+
+/* 100% convivialité + d’économie - de CO2 */
+
+position: absolute;
+width: 508px;
+height: 217px;
+left: 466px;
+top: 80px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+
+color: #FFFFFF;
+
