@@ -2,12 +2,17 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Covoiturage accueil</title>
+    <title>Mon compte TonCovoitUniv</title>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
     <header>
-        <img src="images/universite.png" alt="logo universite lille" style="width:120px;height:40px">
+        <a href="https://www.univ-lille.fr/"><img src="images/universite.png" alt="logo universite lille" style="width:120px;height:50px"></a>
+
+        <a href="index.html"><img src="images/covoiturage-gris.png" alt="logo universite lille" style="width:70px;height:70px"></a>
+        TonCovoitUniv
+        
+
     </header>
 
     <nav>
@@ -27,23 +32,24 @@
 	</section>
 
 <trajetAccueil>
-    <h1>Vos informations visibles par tout utilisateur</h1>
+    <h1>Vos informations visibles par tout les utilisateur</h1>
 
     <div class="bordure-top">
         <div class="bordure-bottom">
-    <div id="user"> <img src="images/utilisateur1.png" alt="utilisateur1"></div>
+   <!--<div id="user"> <img src="images/utilisateur1.png" alt="utilisateur1"></div>--> 
     <div class="bordure-top">
         <div class="bordure-bottom">
     
     <table>
         <tr>
+            <td rowspan="4"><img src="images/utilisateur1.png" alt="utilisateur1" height="200px" width="200px"></td>
             <td>Nom :</td>
-            <td>Utilisateur</td>
+            <td>DUPOND</td>
         </tr>
 
         <tr>
             <td>Prénom :</td>
-            <td>2</td>
+            <td>Enzo</td>
         </tr>
 
         <tr>
@@ -53,12 +59,24 @@
 
         <tr>
             <td>Dernière connexion :</td>
-            <td>12H13</td>
+            <td>Aujourd'hui à 12h13</td>
         </tr>
     </table>
 
 </trajetAccueil>
 
-<h1></h1>
+
+    <div class="button">
+        <button type="submit">Votre historique </button>
+    </div>
+
+    <div class="button">
+        <button type="submit">Vos factures </button>
+    </div>
+
+
+</h1>
+
+
 </body>
 </html>

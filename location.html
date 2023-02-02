@@ -2,12 +2,17 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>location</title>
+    <title>Location TonCovoitUniv</title>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
     <header>
-        <img src="images/universite.png" alt="logo universite lille" style="width:120px;height:40px">
+        <a href="https://www.univ-lille.fr/"><img src="images/universite.png" alt="logo universite lille" style="width:120px;height:50px"></a>
+
+        <a href="index.html"><img src="images/covoiturage-gris.png" alt="logo universite lille" style="width:70px;height:70px"></a>
+        TonCovoitUniv
+        
+
     </header>
 
     <nav>
@@ -36,15 +41,43 @@
         <tr>
             <td>Trotinette</td>
             <td>Villeneuve d'Ascq</td>
-            <td>Réserver</td>
+            <td><a href="locationConfirme.html">Reserver</a></td>
         </tr>
 
         <tr>
             <td>Vélo</td>
             <td>Tourcoing</td>
-            <td>Réserver</td>
+            <td><a href="locationConfirme.html">Reserver</a></td>
         </tr>
     </table>
+
+    <section id="publier" title="publier">
+        <h1>Vous souhaitez publier une location ? c'est par ici !</h1>
+
+        <form action="trajetSend.html" method="post">
+            <div>
+                <label for="name">Nom et prénom:</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">Lieu de départ : </label>
+                <input type="text" id="depart" name="depart">
+            </div>
+            <div>
+                <label for="mail">Date de la location : </label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div>
+                <label for="mail">Heure du début de la location : </label>
+                <input type="time" id="date" name="date">
+            </div>
+            <div class="button">
+                <button type="submit">Envoyer la location</button>
+            </div>
+        </form>
+
+</section>
+
 
 </trajetAccueil>
 
